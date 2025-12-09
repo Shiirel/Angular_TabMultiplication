@@ -1,4 +1,4 @@
 <!--<p>page-table-mult works!</p>-->
 <p>Saisir un nombre : </p>
-<input ng-model="n">
-<app-table-multiplication {{n}}></app-table-multiplication>
+<input type="number" [(ngModel)]="n_input" />
+<app-table-multiplication [n]="n_input"></app-table-multiplication>

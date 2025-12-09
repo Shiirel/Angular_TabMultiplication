@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <div class="row mt-4">
+        <div class="col-2" *ngFor="let count of [].constructor(5); let i = index">
+            <app-tables-multiplications [n]="i+1"></app-tables-multiplications>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-2" *ngFor="let count of [].constructor(5); let i = index">
+            <app-tables-multiplications [n]="i+6"></app-tables-multiplications>
+        </div>
+    </div>
+</div>
+
+
+        

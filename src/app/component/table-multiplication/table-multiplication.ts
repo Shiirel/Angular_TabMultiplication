@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./table-multiplication.css']
 })
 
-export class TableMultiplicationComponent {
+export class TableMultiplication {
   @Input() n: number = 2
 }
